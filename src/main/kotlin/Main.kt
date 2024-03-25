@@ -23,7 +23,7 @@ fun numbers(nums:Array<Int>):Double{
 }
 fun sphereVolume(r:Int,pie:Double){
     var radius = r*r*r
-    var volume = 4/3 * pie*r
+    var volume = 4/3 * pie*radius
     println(volume)
 
 }
